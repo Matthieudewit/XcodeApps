@@ -15,6 +15,7 @@
 		C95554AD1DB3A3EB005ED963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95554AB1DB3A3EB005ED963 /* LaunchScreen.storyboard */; };
 		C95554B81DB3A3EB005ED963 /* BluetoothSnifferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95554B71DB3A3EB005ED963 /* BluetoothSnifferTests.swift */; };
 		C95554C31DB3A3EB005ED963 /* BluetoothSnifferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95554C21DB3A3EB005ED963 /* BluetoothSnifferUITests.swift */; };
+		C95554D21DB3A8D1005ED963 /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95554D11DB3A8D1005ED963 /* BluetoothDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C95554BE1DB3A3EB005ED963 /* BluetoothSnifferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothSnifferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95554C21DB3A3EB005ED963 /* BluetoothSnifferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSnifferUITests.swift; sourceTree = "<group>"; };
 		C95554C41DB3A3EB005ED963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95554D11DB3A8D1005ED963 /* BluetoothDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C95554A91DB3A3EB005ED963 /* Assets.xcassets */,
 				C95554AB1DB3A3EB005ED963 /* LaunchScreen.storyboard */,
 				C95554AE1DB3A3EB005ED963 /* Info.plist */,
+				C95554D11DB3A8D1005ED963 /* BluetoothDevice.swift */,
 			);
 			path = BluetoothSniffer;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				C95554A51DB3A3EB005ED963 /* SecondViewController.swift in Sources */,
 				C95554A11DB3A3EB005ED963 /* AppDelegate.swift in Sources */,
+				C95554D21DB3A8D1005ED963 /* BluetoothDevice.swift in Sources */,
 				C95554A31DB3A3EB005ED963 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
