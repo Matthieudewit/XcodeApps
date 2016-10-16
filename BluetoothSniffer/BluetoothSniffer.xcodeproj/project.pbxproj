@@ -16,6 +16,7 @@
 		C95554B81DB3A3EB005ED963 /* BluetoothSnifferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95554B71DB3A3EB005ED963 /* BluetoothSnifferTests.swift */; };
 		C95554C31DB3A3EB005ED963 /* BluetoothSnifferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95554C21DB3A3EB005ED963 /* BluetoothSnifferUITests.swift */; };
 		C95554D21DB3A8D1005ED963 /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95554D11DB3A8D1005ED963 /* BluetoothDevice.swift */; };
+		C95554D41DB3C0AA005ED963 /* DeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95554D31DB3C0AA005ED963 /* DeviceDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C95554C21DB3A3EB005ED963 /* BluetoothSnifferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSnifferUITests.swift; sourceTree = "<group>"; };
 		C95554C41DB3A3EB005ED963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C95554D11DB3A8D1005ED963 /* BluetoothDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothDevice.swift; sourceTree = "<group>"; };
+		C95554D31DB3C0AA005ED963 /* DeviceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				C95554AB1DB3A3EB005ED963 /* LaunchScreen.storyboard */,
 				C95554AE1DB3A3EB005ED963 /* Info.plist */,
 				C95554D11DB3A8D1005ED963 /* BluetoothDevice.swift */,
+				C95554D31DB3C0AA005ED963 /* DeviceDetailViewController.swift */,
 			);
 			path = BluetoothSniffer;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C95554A51DB3A3EB005ED963 /* SecondViewController.swift in Sources */,
+				C95554D41DB3C0AA005ED963 /* DeviceDetailViewController.swift in Sources */,
 				C95554A11DB3A3EB005ED963 /* AppDelegate.swift in Sources */,
 				C95554D21DB3A8D1005ED963 /* BluetoothDevice.swift in Sources */,
 				C95554A31DB3A3EB005ED963 /* FirstViewController.swift in Sources */,
