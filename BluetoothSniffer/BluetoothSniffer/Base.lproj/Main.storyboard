@@ -86,6 +86,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="BluetoothSniffer" id="efw-qE-Rmv"/>
                     <connections>
+                        <outlet property="devicesTableView" destination="azC-ll-Y4w" id="qVd-tL-wOA"/>
                         <outlet property="ownDeviceAddressLabel" destination="BGv-Ef-sJc" id="acp-WK-Dsg"/>
                         <outlet property="ownDeviceNameLabel" destination="qQd-89-QxY" id="ddg-Jn-cIG"/>
                         <outlet property="scanButton" destination="fJ2-Ob-QhX" id="idP-dB-7IR"/>

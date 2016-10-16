@@ -16,15 +16,16 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet weak var scanInformationLabel: UILabel!
     @IBOutlet weak var ownDeviceNameLabel: UILabel!
     @IBOutlet weak var ownDeviceAddressLabel: UILabel!
+    @IBOutlet weak var devicesTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        bluetoothDevices.append(BluetoothDevice(name: "Matt's iPhone", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
-        bluetoothDevices.append(BluetoothDevice(name: "Krissie phone", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
-        bluetoothDevices.append(BluetoothDevice(name: "James' tablet", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
-        bluetoothDevices.append(BluetoothDevice(name: "MatthieudeWit-MacbookPro", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
+        bluetoothDevices.append(BluetoothDevice(name: "Matt's iPhone", uuid: "D6B7DDF5-62F1-4F8D-9B99-809479967C4A"))
+        bluetoothDevices.append(BluetoothDevice(name: "Krissie phone", uuid: "8DBA448D-0F4E-44E5-97DB-B0BDC0E1931C"))
+        bluetoothDevices.append(BluetoothDevice(name: "James' tablet", uuid: "34DAA315-FF62-4BCA-B3F9-6AB3E9D6D8FD"))
+        bluetoothDevices.append(BluetoothDevice(name: "MatthieudeWit-MacbookPro", uuid: "44DD37F5-D39C-4672-BEB0-6E435BF15E5D"))
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,14 +38,16 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         isScanning = !isScanning
         
         if isScanning {
-            bluetoothDevices.append(BluetoothDevice(name: "Pimmie", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
-            bluetoothDevices.append(BluetoothDevice(name: "BT headset", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
-            bluetoothDevices.append(BluetoothDevice(name: "Laptop_Paul", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
-            bluetoothDevices.append(BluetoothDevice(name: "Matt iPhone 7", uuid: "3ce2ef69-4414-469d-9d55-3ec7fcc38520"))
-            
+            bluetoothDevices.removeAll()
+            bluetoothDevices.append(BluetoothDevice(name: "Pimmie", uuid: "FC8B2555-02FB-43BD-AE84-E6CFACAC89A6"))
+            bluetoothDevices.append(BluetoothDevice(name: "BT headset", uuid: "660C9774-26D0-4D7D-B2C9-3D2D1B3DC1E6"))
+            bluetoothDevices.append(BluetoothDevice(name: "Laptop_Paul", uuid: "CB8ADDEF-7524-4FDF-8310-BA221031D784"))
+            bluetoothDevices.append(BluetoothDevice(name: "Matt iPhone 7", uuid: "A78446D6-F900-464D-8AB9-5428908811D2"))
+            devicesTableView.reloadData()
         }
         else {
             bluetoothDevices.removeAll()
+            devicesTableView.reloadData()
         }
     }
     
