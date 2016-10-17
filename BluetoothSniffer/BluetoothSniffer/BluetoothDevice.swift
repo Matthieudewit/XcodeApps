@@ -11,17 +11,22 @@ import Foundation
 class BluetoothDevice {
     
     var name: String = ""
-    var uuid: String = ""
+    var uuid: UUID = UUID()
     var major: Int = 0
     var minor: Int = 0
+    var batteryLevel: Int = 0
     var distance: String = ""
     
-    init(name: String, uuid: String) {
+    init() {
+        
+    }
+    
+    init(name: String, uuid: UUID) {
         self.name = name
         self.uuid = uuid
     }
     
-    init(name: String, uuid: String, major: Int, minor: Int) {
+    init(name: String, uuid: UUID, major: Int, minor: Int) {
         self.name = name
         self.uuid = uuid
         self.major = major
@@ -30,7 +35,7 @@ class BluetoothDevice {
     
     var description: String {
         get {
-            return "\(name) (\(uuid)), location: \(distance)"
+            return "\(name) (\(uuid.description)), location: \(distance)"
         }
     }
 }

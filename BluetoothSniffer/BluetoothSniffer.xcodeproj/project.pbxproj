@@ -202,6 +202,7 @@
 				TargetAttributes = {
 					C955549C1DB3A3EA005ED963 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BACSM2355A;
 						ProvisioningStyle = Automatic;
 					};
 					C95554B21DB3A3EB005ED963 = {
@@ -424,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BACSM2355A;
 				INFOPLIST_FILE = BluetoothSniffer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdwdevelopment.BluetoothSniffer;
@@ -436,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BACSM2355A;
 				INFOPLIST_FILE = BluetoothSniffer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdwdevelopment.BluetoothSniffer;
@@ -517,6 +520,7 @@
 				C95554C91DB3A3EB005ED963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C95554CA1DB3A3EB005ED963 /* Build configuration list for PBXNativeTarget "BluetoothSnifferTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +529,7 @@
 				C95554CC1DB3A3EB005ED963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C95554CD1DB3A3EB005ED963 /* Build configuration list for PBXNativeTarget "BluetoothSnifferUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +538,7 @@
 				C95554CF1DB3A3EB005ED963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
